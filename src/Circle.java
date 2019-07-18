@@ -15,6 +15,6 @@ public class Circle extends ShapesWithoutAngles {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return 2 * Math.PI * getRadius();
     }
 }
