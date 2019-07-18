@@ -1,6 +1,6 @@
-public abstract class Elips extends ShapesWithoutAngles {
+public abstract class Ellips extends ShapesWithoutAngles {
 
-    public Elips(double radiusOne) {
+    public Ellips(double radiusOne) {
         super(radiusOne);
     }
 
