@@ -1,8 +1,7 @@
 /**
  * created by Vika and Nazar
  */
-
-public abstract  class Parallelogram extends ShapesWithAngle {
+public class Parallelogram extends ShapesWithAngle {
 
     private double height;
     private double side;
@@ -30,7 +29,7 @@ public abstract  class Parallelogram extends ShapesWithAngle {
     }
 
     @Override
-    public double getArea(){
+    public double getArea() {
         return getHeight() * getSide();
     }
 }
