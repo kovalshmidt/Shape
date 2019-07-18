@@ -3,6 +3,10 @@ public abstract class Ellips extends ShapesWithoutAngles {
     private double radiusTwo;
 
 
+    public Ellips(double radiusOne) {
+        super(radiusOne);
+    }
+
     public double getRadiusTwo() {
         return radiusTwo;
     }
@@ -11,12 +15,7 @@ public abstract class Ellips extends ShapesWithoutAngles {
         this.radiusTwo = radiusTwo;
     }
 
-    public Ellips(double radiusOne) {
-        super(radiusOne);
-    }
-
-
-    public double getArea(){
+    public double getArea() {
         return getRadius() * radiusTwo * Math.PI;
     }
 }
