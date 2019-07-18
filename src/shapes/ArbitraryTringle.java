@@ -27,11 +27,6 @@ public class ArbitraryTringle extends ShapesWithAngle {
         this.thirdSide = thirdSide;
     }
 
-    public ArbitraryTringle(double firstSide, double secondSide, double thirdSide, double height) {
-        this.firstSide = firstSide;
-        this.secondSide = secondSide;
-        this.thirdSide = thirdSide;
-    }
 
     private double getFirstSide() {
         return firstSide;
