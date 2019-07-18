@@ -1,8 +1,10 @@
 package volume;
 
-import javafx.scene.shape.TriangleMesh;
 import shapes.RectangularTriangle;
 
+/**
+ * Created by VItaliy Kovalevskyy
+ */
 public class VolumeBaseRectangularTriangle extends RectangularTriangle implements Volume {
 
     private double height;
@@ -20,7 +22,6 @@ public class VolumeBaseRectangularTriangle extends RectangularTriangle implement
     public void setHeight(double height) {
         this.height = height;
     }
-
 
     @Override
     public double getVolume() {
