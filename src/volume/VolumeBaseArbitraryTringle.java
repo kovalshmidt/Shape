@@ -29,8 +29,12 @@ public class VolumeBaseArbitraryTringle extends ArbitraryTringle implements Volu
         this.height = height;
     }
 
+    public double getHeight() {
+        return height;
+    }
+
     @Override
     public double getVolume() {
-        return (getArea() * height) / 3;
+        return (getArea() * getHeight()) / 3;
     }
 }
