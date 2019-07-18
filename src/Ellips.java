@@ -27,12 +27,10 @@ public class Ellips extends ShapesWithoutAngles {
         return getRadius() * radiusTwo * Math.PI;
     }
 
-    public double  getPerimeter(double sideOne, double sideTwo){
-        return  (4 * Math.PI * sideOne * sideTwo + (sideOne - sideTwo)) / (sideOne + sideTwo);
-    }
+
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return (4 * Math.PI * sideOne * sideTwo + (sideOne - sideTwo)) / (sideOne + sideTwo);
     }
 }
