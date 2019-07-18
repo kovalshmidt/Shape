@@ -1,7 +1,6 @@
 /**
  * Created by Maxim Semeniuk
  */
-
 public class Circle extends ShapesWithoutAngles {
 
 
