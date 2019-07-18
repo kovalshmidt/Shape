@@ -1,9 +1,9 @@
+package volume;
+import shapes.RectangularTriangle;
+
 /**
  * Created by Petro
  */
-package volume;
-
-import shapes.RectangularTriangle;
 
 public class VolumeBaseTrapezium extends RectangularTriangle implements Volume{
 
