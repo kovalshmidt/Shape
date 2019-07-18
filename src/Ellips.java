@@ -1,10 +1,15 @@
+/**
+ * created by Vika and Nazar
+ */
+
 public abstract class Ellips extends ShapesWithoutAngles {
 
     private double radiusTwo;
 
 
-    public Ellips(double radiusOne) {
+    public Ellips(double radiusOne, double radiusTwo) {
         super(radiusOne);
+        this.radiusTwo = radiusTwo;
     }
 
     public double getRadiusTwo() {
