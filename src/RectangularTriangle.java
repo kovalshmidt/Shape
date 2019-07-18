@@ -8,7 +8,7 @@ public class RectangularTriangle extends ShapesWithAngle {
     public RectangularTriangle(double catheter1, double catheter2) {
         this.catheter1 = catheter1;
         this.catheter2 = catheter2;
-        this.hypotenuse = hypotenuse;
+        this.hypotenuse = hypotenuse; //TODO: lack of the parameter in counstructor
     }
 
     public double getCatheter1() {
