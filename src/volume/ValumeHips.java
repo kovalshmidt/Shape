@@ -6,6 +6,11 @@ public class ValumeHips extends RectangularTriangle implements Volume{
 
     private double height;
 
+    /**
+     * vitalik
+     * @param height
+     */
+
 
     public ValumeHips(double height) {
         this.height = height;
