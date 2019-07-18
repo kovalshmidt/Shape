@@ -1,7 +1,6 @@
 /**
  * created by Vika and Nazar
  */
-
 public class Parallelogram extends ShapesWithAngle {
 
     private double height;
