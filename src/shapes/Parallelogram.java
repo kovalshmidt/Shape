@@ -1,14 +1,17 @@
+package shapes;
+
 /**
- * Created Vitaliy
+ * created by Vika and Nazar
  */
-public class HipslTriangle extends ShapesWithAngle {
+public class Parallelogram extends ShapesWithAngle {
 
+    private double height;
+    private double side;
+    private double sideOne;
+    private double sideTwo;
 
-    private double height, basis, side;
-
-    public HipslTriangle(double height, double basis, double side) {
+    public Parallelogram(double height, double side) {
         this.height = height;
-        this.basis = basis;
         this.side = side;
     }
 
@@ -18,14 +21,6 @@ public class HipslTriangle extends ShapesWithAngle {
 
     public void setHeight(double height) {
         this.height = height;
-    }
-
-    public double getBasis() {
-        return basis;
-    }
-
-    public void setBasis(double basis) {
-        this.basis = basis;
     }
 
     public double getSide() {
@@ -38,12 +33,11 @@ public class HipslTriangle extends ShapesWithAngle {
 
     @Override
     public double getArea() {
-        return basis * height * 0.5;
-
+        return getHeight() * getSide();
     }
 
     @Override
     public double getPerimeter() {
-        return side + side + side;
+        return side + sideOne + sideTwo;
     }
 }

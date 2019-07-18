@@ -1,3 +1,5 @@
+package shapes;
+
 /**
  * created by Vika and Nazar
  */
