@@ -1,3 +1,6 @@
+/**
+ * Created by Bohdan and MaximK
+ */
 public class ArbitraryTringle extends ShapesWithAngle {
 
     private double firstSide = 1.0, secondSide = 1.0, thirdSide = 1.0;
