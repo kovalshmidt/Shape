@@ -1,4 +1,4 @@
-# Shape
+# shapes.Shape
 Vitaliy Kovalevskyy                          :)
 Vika Hrenyukh                          :)
 Petro Kolttskuy                          :)
