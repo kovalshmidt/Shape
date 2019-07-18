@@ -5,7 +5,7 @@ public class RectangularTriangle extends ShapesWithAngle {
 
     private double catheter1, catheter2, hypotenuse;
 
-    public RectangularTriangle(double catheter1, double catheter2) {
+    public RectangularTriangle(double catheter1, double catheter2, double hypotenuse) {
         this.catheter1 = catheter1;
         this.catheter2 = catheter2;
         this.hypotenuse = hypotenuse; //TODO: lack of the parameter in counstructor
