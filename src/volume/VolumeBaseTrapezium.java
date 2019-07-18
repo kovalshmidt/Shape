@@ -1,6 +1,9 @@
 package volume;
-
 import shapes.RectangularTriangle;
+
+/**
+ * Created by Petro
+ */
 
 public class VolumeBaseTrapezium extends RectangularTriangle implements Volume{
 
@@ -21,5 +24,10 @@ public class VolumeBaseTrapezium extends RectangularTriangle implements Volume{
     @Override
     public double getVolume() {
         return height * getArea();
+    }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return (getCatheter1() + getCatheter2() + getHypotenuse()) * getHeight() + 2 * getArea();
     }
 }

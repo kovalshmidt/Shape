@@ -37,4 +37,9 @@ public class VolumeBaseArbitraryTringle extends ArbitraryTringle implements Volu
     public double getVolume() {
         return (getArea() * getHeight()) / 3;
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }

@@ -6,6 +6,11 @@ public class ValumeHips extends RectangularTriangle implements Volume{
 
     private double height;
 
+    /**
+     * vitalik
+     * @param height
+     */
+
 
     public ValumeHips(double height) {
         this.height = height;
@@ -23,6 +28,11 @@ public class ValumeHips extends RectangularTriangle implements Volume{
     @Override
     public double getVolume() {
         return height * getArea() ;
+    }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
     }
 }
 
