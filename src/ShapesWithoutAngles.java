@@ -1,7 +1,6 @@
 /**
  * Created by Petro
  */
-
 public abstract class ShapesWithoutAngles implements Shape {
 
     private double radius;
