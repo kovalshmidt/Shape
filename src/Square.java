@@ -1,20 +1,19 @@
 /**
  * Created by Lyubchyk Mannko
  */
-
 public class Square extends ShapesWithAngle {
 
-   private double a;
+   private double side;
 
     public Square() {
-        this.a = 1.0;
+        this.side = 1.0;
     }
-    public Square(double a) {
-    this.a = a;
+    public Square(double side) {
+        this.side = side;
     }
 
     @Override
     public double getArea() {
-        return a * a;
+        return side * side;
     }
 }
