@@ -32,4 +32,9 @@ public class VolumeBaseEquilateralTriangle extends EquilateralTriangle implement
     public double getVolume() {
         return getHeight() * getLengthOfTheBaseOfThePyramid() * getLengthOfTheBaseOfThePyramid() * Math.sqrt(3);
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }
