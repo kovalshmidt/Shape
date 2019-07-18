@@ -5,7 +5,9 @@ package shapes;
  */
 public class ArbitraryTringle extends ShapesWithAngle {
 
-    private double firstSide, secondSide, thirdSide;
+    private double firstSide;
+    private double secondSide;
+    private double thirdSide;
 
     public ArbitraryTringle(double firstSide) {
         this.firstSide = firstSide;
@@ -24,6 +26,7 @@ public class ArbitraryTringle extends ShapesWithAngle {
         this.secondSide = secondSide;
         this.thirdSide = thirdSide;
     }
+
 
     private double getFirstSide() {
         return firstSide;
