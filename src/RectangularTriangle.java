@@ -28,7 +28,7 @@ public class RectangularTriangle extends ShapesWithAngle {
 
     @Override
     public double getArea() {
-        return 0.5 * getCatheter1() * getCatheter2();
+        return 0.5 * catheter1 * catheter2;
     }
 
 }
