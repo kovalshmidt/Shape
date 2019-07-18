@@ -2,7 +2,7 @@
  * created by Vika and Nazar
  */
 
-public abstract class Ellips extends ShapesWithoutAngles {
+public class Ellips extends ShapesWithoutAngles {
 
     private double radiusTwo;
 
