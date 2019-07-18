@@ -31,6 +31,10 @@ public class Trapezium extends ShapesWithAngle {
       return middleLine * height;
     }
 
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 
 
 }

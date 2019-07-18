@@ -32,4 +32,9 @@ public class Parallelogram extends ShapesWithAngle {
     public double getArea() {
         return getHeight() * getSide();
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }

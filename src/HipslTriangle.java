@@ -31,4 +31,9 @@ public class HipslTriangle extends ShapesWithAngle {
     public double getArea() {
         return basis * height * 0.5;
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }

@@ -12,4 +12,9 @@ public class Circle extends ShapesWithoutAngles {
     public double getArea() {
         return Math.PI * getRadius() * getRadius();
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }

@@ -20,4 +20,7 @@ public abstract class ShapesWithoutAngles implements Shape {
     @Override
     public abstract double getArea();
 
+    @Override
+    public abstract double getPerimeter();
+
 }

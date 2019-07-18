@@ -23,4 +23,9 @@ public class Ellips extends ShapesWithoutAngles {
     public double getArea() {
         return getRadius() * radiusTwo * Math.PI;
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }

@@ -31,4 +31,9 @@ public class RectangularTriangle extends ShapesWithAngle {
         return 0.5 * catheter1 * catheter2;
     }
 
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
 }

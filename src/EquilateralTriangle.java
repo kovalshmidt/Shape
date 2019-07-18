@@ -31,4 +31,9 @@ public class EquilateralTriangle extends ShapesWithAngle {
     public double getArea() {
         return side * height / 0.5;
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
 }
