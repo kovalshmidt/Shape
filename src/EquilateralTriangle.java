@@ -3,9 +3,9 @@
  */
 public class EquilateralTriangle extends ShapesWithAngle {
 
-    double height;
+    private double height;
 
-    double side;
+    private double side;
 
     public double getHeight() {
         return height;
