@@ -11,7 +11,6 @@ public class Parallelogram extends ShapesWithAngle {
     public Parallelogram(double height, double side) {
         this.height = height;
         this.side = side;
-
     }
 
     public double getHeight() {
@@ -29,7 +28,6 @@ public class Parallelogram extends ShapesWithAngle {
     public void setSide(double side) {
         this.side = side;
     }
-
 
     @Override
     public double getArea() {
