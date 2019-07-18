@@ -5,11 +5,12 @@ public class Parallelogram extends ShapesWithAngle {
 
     private double height;
     private double side;
+    private double sideOne;
+    private double sideTwo;
 
     public Parallelogram(double height, double side) {
         this.height = height;
         this.side = side;
-
     }
 
     public double getHeight() {
@@ -35,6 +36,6 @@ public class Parallelogram extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return side + sideOne + sideTwo;
     }
 }

@@ -5,7 +5,8 @@
 public class Ellips extends ShapesWithoutAngles {
 
     private double radiusTwo;
-
+    private double sideOne;
+    private double sideTwo;
 
     public Ellips(double radiusOne, double radiusTwo) {
         super(radiusOne);
@@ -26,6 +27,6 @@ public class Ellips extends ShapesWithoutAngles {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return (4 * Math.PI * sideOne * sideTwo + (sideOne - sideTwo)) / (sideOne + sideTwo);
     }
 }
