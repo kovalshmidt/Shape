@@ -5,7 +5,7 @@ public class Trapezium extends ShapesWithAngle {
 
     private double height, middleLine, side1, side2;
 
-    public Trapezium(double height, double middleLine) {
+    public Trapezium(double height, double middleLine, double side1, double side2) {
         this.height = height;
         this.middleLine = middleLine;
         this.side1 =side1;
