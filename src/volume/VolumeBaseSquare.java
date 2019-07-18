@@ -25,4 +25,9 @@ public class VolumeBaseSquare extends Square  implements Volume{
     public double getVolume() {
         return height * getArea();
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }
