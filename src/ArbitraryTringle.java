@@ -37,9 +37,9 @@ public class ArbitraryTringle extends ShapesWithAngle {
 
     @Override
     public double getArea() {
-        double p = (getFirstSide() + getSecondSide() + getThirdSide()) / 2;
+        double halfPerimeter = getPerimeter() / 2;
 
-        return Math.sqrt(p * (p - getFirstSide()) * (p - getSecondSide()) * (p - getThirdSide()));
+        return Math.sqrt(halfPerimeter * (halfPerimeter - getFirstSide()) * (halfPerimeter - getSecondSide()) * (halfPerimeter - getThirdSide()));
     }
 
     @Override
