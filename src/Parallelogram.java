@@ -29,9 +29,7 @@ public class Parallelogram extends ShapesWithAngle {
     public void setSide(double side) {
         this.side = side;
     }
-    public double getPerimeter(double sideOne, double sideTwo, double side){
-        return side + sideOne + sideTwo;
-    }
+
 
     @Override
     public double getArea() {
@@ -40,6 +38,6 @@ public class Parallelogram extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return side + sideOne + sideTwo;
     }
 }
