@@ -13,6 +13,9 @@ public class RectangularTriangle extends ShapesWithAngle {
         this.hypotenuse = hypotenuse; //TODO: lack of the parameter in constructor
     }
 
+    public RectangularTriangle() {
+    }
+
     public double getCatheter1() {
         return catheter1;
     }
