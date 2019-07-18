@@ -1,3 +1,6 @@
+/**
+ * created Petya and Vitalik
+ */
 public class Trapezium extends ShapesWithAngle {
 
     private double height, middleLine;
