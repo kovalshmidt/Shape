@@ -28,6 +28,6 @@ public class VolumeBaseTrapezium extends RectangularTriangle implements Volume{
 
     @Override
     public double getAllSurfaceArea() {
-        return (getCatheter1() + getCatheter2() + getHypotenuse()) * getHeight();
+        return (getCatheter1() + getCatheter2() + getHypotenuse()) * getHeight() + 2 * getArea();
     }
 }
