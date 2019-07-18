@@ -3,11 +3,12 @@
  */
 public class RectangularTriangle extends ShapesWithAngle {
 
-    private double catheter1, catheter2;
+    private double catheter1, catheter2, hypotenuse;
 
     public RectangularTriangle(double catheter1, double catheter2) {
         this.catheter1 = catheter1;
         this.catheter2 = catheter2;
+        this.hypotenuse = hypotenuse;
     }
 
     public double getCatheter1() {
@@ -26,6 +27,14 @@ public class RectangularTriangle extends ShapesWithAngle {
         this.catheter2 = catheter2;
     }
 
+    public double getHypotenuse() {
+        return hypotenuse;
+    }
+
+    public void setHypotenuse(double hypotenuse) {
+        this.hypotenuse = hypotenuse;
+    }
+
     @Override
     public double getArea() {
         return 0.5 * catheter1 * catheter2;
@@ -33,7 +42,7 @@ public class RectangularTriangle extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return catheter1 + catheter1 + hypotenuse;
     }
 
 }
