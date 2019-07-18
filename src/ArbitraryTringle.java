@@ -7,7 +7,7 @@ public class ArbitraryTringle extends ShapesWithAngle {
 
     public ArbitraryTringle(double firstSide) {
         this.firstSide = firstSide;
-        this.secondSide = 1.00;
+        this.secondSide = 1.0;
         this.thirdSide = 1.0;
     }
 
@@ -23,15 +23,15 @@ public class ArbitraryTringle extends ShapesWithAngle {
         this.thirdSide = thirdSide;
     }
 
-    public double getFirstSide() {
+    private double getFirstSide() {
         return firstSide;
     }
 
-    public double getSecondSide() {
+    private double getSecondSide() {
         return secondSide;
     }
 
-    public double getThirdSide() {
+    private double getThirdSide() {
         return thirdSide;
     }
 
