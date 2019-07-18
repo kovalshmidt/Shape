@@ -6,9 +6,10 @@ public class HipslTriangle extends ShapesWithAngle {
 
     private double height, basis, side;
 
-    public HipslTriangle(double height, double basis) {
+    public HipslTriangle(double height, double basis, double side) {
         this.height = height;
         this.basis = basis;
+        this.side = side;
     }
 
     public double getHeight() {
