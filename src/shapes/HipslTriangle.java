@@ -1,15 +1,16 @@
+package shapes;
+
 /**
- * created by Vika and Nazar
+ * Created Vitaliy
  */
-public class Parallelogram extends ShapesWithAngle {
+public class HipslTriangle extends ShapesWithAngle {
 
-    private double height;
-    private double side;
-    private double sideOne;
-    private double sideTwo;
 
-    public Parallelogram(double height, double side) {
+    private double height, basis, side;
+
+    public HipslTriangle(double height, double basis, double side) {
         this.height = height;
+        this.basis = basis;
         this.side = side;
     }
 
@@ -19,6 +20,14 @@ public class Parallelogram extends ShapesWithAngle {
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    public double getBasis() {
+        return basis;
+    }
+
+    public void setBasis(double basis) {
+        this.basis = basis;
     }
 
     public double getSide() {
@@ -31,11 +40,12 @@ public class Parallelogram extends ShapesWithAngle {
 
     @Override
     public double getArea() {
-        return getHeight() * getSide();
+        return basis * height * 0.5;
+
     }
 
     @Override
     public double getPerimeter() {
-        return side + sideOne + sideTwo;
+        return side + side + side;
     }
 }

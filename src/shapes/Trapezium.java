@@ -1,3 +1,5 @@
+package shapes;
+
 /**
  * created Petya and Vitalik
  */

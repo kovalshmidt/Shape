@@ -1,3 +1,5 @@
+package shapes;
+
 /**
  * Created by Bogdan Bozhyk
  */
