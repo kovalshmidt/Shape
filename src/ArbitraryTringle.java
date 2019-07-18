@@ -44,6 +44,6 @@ public class ArbitraryTringle extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return firstSide + secondSide + thirdSide;
     }
 }
