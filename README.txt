@@ -1,7 +1,7 @@
 # Shape
 Vitaliy Kovalevskyy
 Vika Hrenyukh
-Petro Kolttskuy alalalalalalalal
+Petro Kolttskuy
 Vitaliy Sinkevich
 Bogdan Bozhyk
 Lyubchyk Manko
