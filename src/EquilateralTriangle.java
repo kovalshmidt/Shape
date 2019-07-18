@@ -4,8 +4,12 @@
 public class EquilateralTriangle extends ShapesWithAngle {
 
     private double height;
-
     private double side;
+
+    public EquilateralTriangle(double height, double side){
+        this.height = height;
+        this.side = side;
+    }
 
     public double getHeight() {
         return height;
