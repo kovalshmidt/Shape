@@ -34,6 +34,6 @@ public class EquilateralTriangle extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return side * 3;
     }
 }

@@ -4,11 +4,12 @@
 public class HipslTriangle extends ShapesWithAngle {
 
 
-    private double height, basis;
+    private double height, basis, side;
 
-    public HipslTriangle(double height, double basis) {
+    public HipslTriangle(double height, double basis, double side) {
         this.height = height;
         this.basis = basis;
+        this.side = side;
     }
 
     public double getHeight() {
@@ -27,13 +28,22 @@ public class HipslTriangle extends ShapesWithAngle {
         this.basis = basis;
     }
 
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
+    }
+
     @Override
     public double getArea() {
         return basis * height * 0.5;
+
     }
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return side + side + side;
     }
 }
