@@ -10,7 +10,7 @@ public class Ellips extends ShapesWithoutAngles {
     private double sideOne;
     private double sideTwo;
 
-    public Ellips(double radiusOne, double radiusTwo) {
+    public Ellips(double one, double radiusOne, double radiusTwo) {
         super(radiusOne);
         this.radiusTwo = radiusTwo;
     }
