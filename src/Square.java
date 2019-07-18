@@ -19,6 +19,6 @@ public class Square extends ShapesWithAngle {
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return 4 * side;
     }
 }
