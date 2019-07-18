@@ -12,4 +12,9 @@ public class VolumeBaseParallelogram extends Parallelogram implements Volume {
     public double getVolume() {
         return getHeight() * getArea();
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }

@@ -27,4 +27,9 @@ public class VolumeBaseRectangularTriangle extends RectangularTriangle implement
     public double getVolume() {
         return height * getArea();
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }

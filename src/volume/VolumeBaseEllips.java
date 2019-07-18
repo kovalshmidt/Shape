@@ -24,4 +24,9 @@ public class VolumeBaseEllips extends Ellips implements Volume{
     public double getVolume() {
         return getArea() * height;
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }

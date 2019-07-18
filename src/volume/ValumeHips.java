@@ -24,5 +24,10 @@ public class ValumeHips extends RectangularTriangle implements Volume{
     public double getVolume() {
         return height * getArea() ;
     }
+
+    @Override
+    public double getAllSurfaceArea() {
+        return 0;
+    }
 }
 
