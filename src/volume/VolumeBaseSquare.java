@@ -1,20 +1,18 @@
 package volume;
 
-import shapes.RectangularTriangle;
+import shapes.Square;
 
 /**
- * Created by VItaliy Kovalevskyy
+ * Created by Lyubchyk Manko
  */
-public class VolumeBaseRectangularTriangle extends RectangularTriangle implements Volume {
+public class VolumeBaseSquare extends Square  implements Volume{
 
     private double height;
 
-    public VolumeBaseRectangularTriangle(double catheter1, double catheter2,
-                                         double hypotenuse, double height) {
-        super(catheter1, catheter2, hypotenuse);
+    public VolumeBaseSquare(double side, double height){
+        super(side);
         this.height = height;
     }
-
     public double getHeight() {
         return height;
     }

@@ -6,4 +6,5 @@ package volume;
 public interface Volume {
 
     double getVolume();
+    double getAllSurfaceArea();
 }
