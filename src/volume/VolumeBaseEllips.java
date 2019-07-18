@@ -1,7 +1,10 @@
+
 package volume;
 
 import shapes.Ellips;
-
+/**
+ * created by Vika, Nazar
+ */
 public class VolumeBaseEllips extends Ellips implements Volume {
 
     private double height;
@@ -27,6 +30,6 @@ public class VolumeBaseEllips extends Ellips implements Volume {
 
     @Override
     public double getAllSurfaceArea() {
-        return 0;
+        return (getRadiusTwo() + getRadius())*getHeight();
     }
 }

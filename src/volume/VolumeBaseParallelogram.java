@@ -1,3 +1,6 @@
+/**
+ * created by Vika, Nazar
+ */
 package volume;
 
 import shapes.Parallelogram;
@@ -15,6 +18,6 @@ public class VolumeBaseParallelogram extends Parallelogram implements Volume {
 
     @Override
     public double getAllSurfaceArea() {
-        return 0;
+        return (getHeight() + getSide()) * getArea();
     }
 }
