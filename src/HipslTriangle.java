@@ -1,12 +1,12 @@
 /**
  * Created Vitaliy
  */
-public class EquilateralTriangle extends ShapesWithAngle {
+public class HipslTriangle extends ShapesWithAngle {
 
 
     private double height, basis;
 
-    public EquilateralTriangle(double height, double basis) {
+    public HipslTriangle(double height, double basis) {
         this.height = height;
         this.basis = basis;
     }
